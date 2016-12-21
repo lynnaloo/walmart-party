@@ -38,7 +38,7 @@ server.register(plugins, (err) => {
 
   server.route({
     method: 'GET',
-    path:'/version',
+    path: '/version',
     handler: function (request, reply) {
       reply({
         name: pkg.name,
